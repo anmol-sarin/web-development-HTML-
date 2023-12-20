@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img-table-list</title>
+    <style>
+        .table,
+        th {
+            border: 2px solid black;
+        }
+
+        .table1,
+        td {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <!--              image tag                 -->
+    <div>
+        <img height="250" src="srk1.png" alt="srk image">
+    </div>
+    
+
+    <!--              Table Tag                  -->
+    <table class="table">
+        <caption>SRK fans details</caption>
+        <thead>
+            <h1>this is student details</h1>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>SRK's movies watched</th>
+            </tr>
+            <tr>
+                <td class="table" colspan="2">Rohit</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>ashish</td>
+                <td>24</td>
+                <td>49</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">avinash</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    
+    <!--               list tag                -->
+    <!--It is of three types 
+    1.ordered list---------=> ol
+    2.unordered list---------=> ul
+    3.definition list----------=> dl
+    -->
+    <h1>Types of list</h1>
+    <h2>in ordered list</h2>
+    <ol type="a">
+        <li>
+            ordered list---------=> ol
+        </li>
+        <li>
+            unordered list---------=> ul
+        </li>
+        <li>
+            definition list----------=> dl
+        </li>    
+    </ol>
+    <h2>in unordered list</h2>
+    <ul type="square">
+        <li>
+            ordered list---------=> ol
+        </li>
+        <li>
+            unordered list---------=> ul
+        </li>
+        <li>
+            definition list----------=> dl
+        </li>    
+    </ul>
+    <h2>in definition list</h2>
+    <dl>
+        <dt>ordered list</dt>
+        <dd>An ordered list starts with the ol tag. Each list item starts with the li tag.</dd>
+        <dt>unordered list</dt>
+        <dd>An unordered list starts with the ul tag. Each list item starts with the li tag.</dd>
+        <dt>definition list</dt>
+        <dd>The dl tag defines a description list.
+        The dl tag is used in conjunction with dt (defines terms/names) and dd (describes each term/name).</dd>
+    </dl>
+</body>
+</html>
